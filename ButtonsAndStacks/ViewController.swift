@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var colorLabel: UILabel!
     
     var colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .systemIndigo, .systemPurple]
+    
+    let alignment : [NSTextAlignment] = [.left, .center, .right]
 
     override func viewDidLoad() {
         super.viewDidLoad()
