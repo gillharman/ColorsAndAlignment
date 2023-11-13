@@ -38,6 +38,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func alignmentButtonPressed(_ sender: UIButton) {
+        if sender.tag == 0 {
+            colorLabel.textAlignment = alignment[sender.tag]
+        } else if sender.tag == 1 {
+                colorLabel.textAlignment = alignment[sender.tag]
+        } else {
+            colorLabel.textAlignment = alignment[sender.tag]
+        }
     }
 }
 
