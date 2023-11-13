@@ -35,5 +35,7 @@ class ViewController: UIViewController {
 
     }
     
+    @IBAction func alignmentButtonPressed(_ sender: UIButton) {
+    }
 }
 

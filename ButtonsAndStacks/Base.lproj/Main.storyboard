@@ -118,18 +118,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Left"/>
+                                <connections>
+                                    <action selector="alignmentButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ze-S6-CZ9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFl-VT-5Gk">
                                 <rect key="frame" x="235" y="308" width="64" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Right"/>
+                                <connections>
+                                    <action selector="alignmentButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hjy-MK-kRo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whc-Bw-H5z">
                                 <rect key="frame" x="123" y="308" width="76" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Center"/>
+                                <connections>
+                                    <action selector="alignmentButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ADW-n8-Vfd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
